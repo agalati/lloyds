@@ -1,0 +1,40 @@
+.searchContainer {
+  width: 600px;
+}
+
+.searchBox {
+  width: 100%;
+  padding: 1rem;
+  font-size: 16px;
+  border: 2px solid var(--COLOR-GRAY);
+  border-radius: 4px;
+}
+
+.searchBox:focus {
+  outline: 1px solid #16a2ff;
+}
+
+.suggestion {
+  background-color: white;
+  border: 1px solid var(--COLOR-GRAY);
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2px 1rem;
+  overflow-x: hidden;
+  cursor: pointer;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.suggestion:hover {
+  border: 2px solid gray;
+}
+
+@media screen and (max-width: 600px) {
+  .searchContainer {
+    width: 94%;
+    margin: auto;
+  }
+}

@@ -11,3 +11,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #f8f8f8;
 }
+
+:root {
+  --COLOR-GRAY: #e4e4e4;
+  --COLOR-DARK-GRAY: #818181;
+  --COLOR-RED: rgb(233, 6, 6);
+}
